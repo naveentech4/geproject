@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'gedb',
+	'hostname' => 'gemysql',
 	'username' => 'root',
 	'password' => '1234',
 	'database' => 'gesec',
