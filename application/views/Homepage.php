@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
    <div class="jumbotron text-center">
      <h1>Bhavan's Vivekananda College</h1>
-     <h3>SEC Registration</h3>
+     <h3>SEC Registration <?php echo $SERVER['SERVER_NAME']; ?></h3>
 
    </div>
    <table>
