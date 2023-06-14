@@ -30,8 +30,7 @@ pipeline {
             steps {
                 script {
                     echo "Deploying.."  
-                    sh 'sudo rm -rf /var/www/html/*'
-                    sh 'sudo cp -r * /var/www/html'                    
+                    sh 'cd /var/www/html && git pull origin master'                    
             }
             }
         }
