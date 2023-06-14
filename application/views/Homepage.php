@@ -11,9 +11,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </head>
   <body>
    <div class="jumbotron text-center">
+   <h3>SEC3</h3>
      <h1>Bhavan's Vivekananda College</h1>
-     <h3>SEC3</h3>
-
+     <h2>Test</h2>
    </div>
    <table>
    <?php $sucess=$this->session->flashdata('inserted');
