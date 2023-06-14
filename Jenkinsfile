@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     echo "Deploying.."  
-                    sh 'cd /var/www/html && git pull origin master'                    
+                    sh 'cd /var/www/html && sudo git pull origin master'                    
             }
             }
         }
