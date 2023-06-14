@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
    <div class="jumbotron text-center">
      <h1>Bhavan's Vivekananda College</h1>
-     <h3>SEC3</h3>
+     <h3>Iam changed</h3>
    </div>
    <table>
    <?php $sucess=$this->session->flashdata('inserted');
